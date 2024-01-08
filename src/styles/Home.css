@@ -1,4 +1,8 @@
 /* Default height for small devices */
+body {
+  min-height: 100vh;
+}
+
 #intro-example {
   height: 400px;
 }

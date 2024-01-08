@@ -41,3 +41,13 @@
   background-color: hsla(0, 0%, 100%, 0.9) !important;
   backdrop-filter: saturate(200%) blur(25px);
 }
+
+.reg-container {
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .reg-container {
+    height: 100%;
+  }
+}

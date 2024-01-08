@@ -47,7 +47,7 @@ function Register() {
   return (
     <MDBContainer
       fluid
-      className="p-4 background-radial-gradient overflow-hidden"
+      className="p-4 background-radial-gradient overflow-hidden reg-container"
     >
       <MDBRow>
         <MDBCol
@@ -86,7 +86,7 @@ function Register() {
             <MDBCardBody className="p-5">
               <MDBInput
                 wrapperClass="mb-4"
-                label="First name"
+                label="User name"
                 id="username"
                 type="text"
                 value={username}
