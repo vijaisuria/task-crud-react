@@ -2,13 +2,13 @@
 
 This project is a React.js frontend interface for a Task Management System. It utilizes material-ui for design components and communicates with the backend API for task operations.
 
-### Installation
+## Installation
 
 1. Clone the repository
 2. Install dependencies using `npm install`
 3. Start the development server using `npm start`
 
-### Usage
+## Usage
 
 - **Task List**: Displays all tasks retrieved from the backend.
 - **Add Task**: Form to add new tasks to the system.
@@ -16,16 +16,34 @@ This project is a React.js frontend interface for a Task Management System. It u
 - **Delete Task**: Remove a task from the list.
 - **Mark Completion**: Mark a task as completed.
 
-### Integration with Backend
+## Integration with Backend
 
 Ensure the backend server is running and accessible. Update the API endpoint URLs in the frontend codebase to establish communication between frontend and backend.
 
-### Folder Structure
+## Folder Structure
 
 - `src/components`: Contains individual components for managing tasks.
 - `src/App.js`: Main component handling the layout and routing.
 
-### Running the App
+```
+task-crud-react/
+  src/
+    components/
+      Task/
+        Task.jsx
+        TaskList.jsx
+        TaskCard.jsx
+        TaskManager.jsx
+      Dashboard.jsx
+      Home.jsx
+      Login.jsx
+      Register.jsx
+    App.js
+    index.js
+  README.md
+```
+
+## Running the App
 
 - Run `npm start` to launch the development server.
 - Open the browser and navigate to `http://localhost:3000` to view the app.
