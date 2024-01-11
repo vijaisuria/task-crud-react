@@ -58,17 +58,15 @@ function Register() {
             className="my-5 display-3 fw-bold ls-tight px-3"
             style={{ color: "hsl(218, 81%, 95%)" }}
           >
-            The best offer <br />
+            Seamless Access, <br />
             <span style={{ color: "hsl(218, 81%, 75%)" }}>
-              for your business
+              Unlimited Potential.
             </span>
           </h1>
 
           <p className="px-3" style={{ color: "hsl(218, 81%, 85%)" }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            itaque accusantium odio, soluta, corrupti aliquam quibusdam tempora
-            at cupiditate quis eum maiores libero veritatis? Dicta facilis sint
-            aliquid ipsum atque?
+            Join us to streamline your tasks! Register now for seamless
+            organization, efficient collaboration, and optimized productivity.
           </p>
         </MDBCol>
 
